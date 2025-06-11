@@ -1,0 +1,42 @@
+
+ Objective
+Develop a classification model to detect fraudulent credit card transactions in an imbalanced dataset using oversampling techniques.
+Methods employed to deal with class imbalance: 
+- Oversample minority class
+- Undersample majority class
+- SMOTE - Synthetic Minority Over-sampling Technique
+Classification model used : Logistic Regression
+
+This project simulates real-world fraud detection workflows where precision and recall trade-offs are critical.
+
+Dataset
+- Source: [Kaggle - Credit Card Fraud Detection]
+- Records: 284,807 transactions
+- Class distribution: 492 fraud cases (~0.17%) vs 284,315 non-fraud
+- Features: PCA-transformed columns (V1 to V28), `Time`, `Amount`, and `Class` (target)
+
+ Tools & Libraries
+- Python
+- pandas, numpy
+- seaborn, matplotlib
+- scikit-learn
+- imbalanced-learn (SMOTE)
+
+ Workflow
+1. Data Exploration
+   - Check for class imbalance
+   - Visualize distributions
+
+2. Preprocessing
+   - Feature scaling
+   - Train-test split
+
+3. Handling Imbalance
+    
+   - Applied `SMOTE` to oversample the minority class (fraud cases)
+
+4. Modeling
+   - Logistic Regression
+   - Evaluated using:
+     - Confusion Matrix
+     - Precision, Recall, F1-score
