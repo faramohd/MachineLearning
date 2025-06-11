@@ -1,0 +1,34 @@
+# Credit Scoring – Logistic Regression and Gradient Boosting Classifier (PD Estimation)
+Evaluation Metric- AUC Score
+
+## Objective
+Build a binary classification model to predict the probability of default (PD) for customers using credit-related features. 
+The goal is to replicate a simplified version of credit scoring models used in real-world banking environments.
+
+## Dataset: source :Kaggle 
+
+## Tools & Libraries
+- Python 
+- pandas, numpy
+- seaborn, matplotlib
+- scikit-learn\Logistic regression and Gradient Boosting Classifier
+- 
+
+## Key Steps
+1. Exploratory Data Analysis (EDA):
+   - Class distribution
+   - Feature-target relationships `
+
+2. Data Preprocessing:
+   - Handling missing values
+   
+3. Modeling:
+   - Logistic Regression
+   - Gradient Boosting Classifier
+   - Evaluation metrics:
+     - AUC score
+
+Results Summary
+- AUC score- 0.85
+
+- Top predictors: GradientBoostingClassifier gives more emphasis on the RevolvingUtilizationOfUnsecuredLines feature and the DebtRatio
